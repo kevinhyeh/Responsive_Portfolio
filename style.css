@@ -1,0 +1,380 @@
+/*style sheet for all*/
+
+html, body {
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+h2 {
+    color: #4aaaa5;
+    font-family: Cambria, Georgia, serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: #777777;
+    font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+
+/*end style sheet for all*/
+
+
+/*main body*/
+
+#wrapper {
+	min-height: 100%;
+	position: relative;
+	background: url("images/bg_pic2.jpg");
+	background-size: cover;
+}
+
+section {
+    margin: auto;
+    width: 960px;
+    background-color: #ffffff;
+    border: 2px solid #dddddd;
+    padding: 20px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+.break {
+    background-color: #dddddd;
+    width: 940px;
+    height: 3px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*end main body*/
+
+
+/*header style*/
+
+h1 {
+    height: 60px;
+    width: 200px;
+    background-color: #4aaaa5;
+    float: left;
+    text-align: center;
+    color: #ffffff;
+    font-size: 35px;
+    padding-top: 20px;
+}
+
+header {
+    background-color: #ffffff;
+    height: 80px;
+    border-bottom: #cccccc solid 1px;
+}
+
+nav {
+    width: 1000px;
+    margin: auto;
+}
+
+.click {
+    float: right;
+    border: none;
+    font-size: 20px;
+}
+
+.click:hover {
+    background-color: #4aaaa5;
+}
+
+.tagbreak {
+    width: 1px;
+    height: 20px;
+    background-color: #dddddd;
+    margin: 5px 8px 8px;
+    float: right;
+    padding-top: 5px;
+}
+
+.tagbreak, .click {
+    margin-top: 20px;
+}
+
+/*end header style*/
+
+
+/*style sheet for index.html*/
+
+#aboutimg {
+    float: left;
+    width: 200px;
+}
+
+.toptext {
+    padding-left: 220px;
+    padding-top: 0px;
+    line-height: 24px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.intro {
+    padding-left: 220px;
+    line-height: 24px;
+    margin-bottom: 10px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.intro:first-letter {
+    font-family: 'Goudy Old Style', Garamond, 'Big Caslon', 'Times New Roman',  serif;
+    font-size: 30px;
+    color: #4aaaa5;
+}
+
+.bottext {
+    clear: both;
+    line-height: 24px;
+    margin-top: 15px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+
+/*end style sheet for index.html*/
+
+/*style sheet for portfolio.html*/
+
+#center {
+    margin: auto;
+}
+.picture {
+    float: left;
+    position: relative;
+    display: grid;
+    width: 250px;
+    height: 215px;
+    background-size: cover;
+    margin: 20px;
+}
+
+#end {
+    clear: both;
+}
+
+#tgllogo {
+    background-image: url("images/tgjlogo.jpg");
+}
+
+#javascript {
+    background-image: url("images/javascript.png");
+}
+
+#htmlcss {
+    background-image: url("images/htmlcss.jpg");
+}
+
+#photoshop {
+    background-image: url("images/photoshop.jpg");
+}
+
+#photography {
+    background-image: url("images/photography.jpg");
+}
+
+.portfolioname {
+	height: 30px;
+	width: 250px;
+	background-color: #4aaaa5;
+	text-align: center;
+	color: #ffffff;
+	padding-top: 8px;
+	font-size: 20px;
+    position: absolute;
+    z-index: 1;
+    margin-top: 140px;
+}
+
+/*end style sheet for portfolio.html*/
+
+/*style sheet for contact*/
+
+label {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: grey;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#textform {
+    width: 940px;
+    margin-top: 10px;
+    height: 20px;
+    margin-bottom: 10px;
+    border: 0.1px solid black;
+}
+
+#messagebox {
+	height: 200px;
+	width: 940px;
+    margin-top: 10px;
+    resize: vertical;
+}
+
+#submit {
+	height: 40px;
+	width: 80px;
+	background-color: #4aaaa5;
+	text-align: center;
+	padding: 8px 4px ;
+	margin-top: 10px;
+	color: #ffffff;
+	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+	font-size: 14px;
+}
+
+/*end style sheet for contact.html*/
+
+
+/*footer style*/
+
+footer {
+    width: 100%;
+    background-color: #666666;
+    height: 30px;
+    border-top: solid #4aaaa5 5px;
+    text-align: center;
+    color: #dddddd;
+    font-size: 11px;
+    font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+    position: absolute;
+    bottom: 0;
+    padding-top: 30px;
+}
+
+/*end footer style*/
+
+
+/*media queuery */
+@media screen and (max-width: 980px) {
+    section {
+    width: 700px;
+    margin: 30px 30px;
+    }
+
+    nav {
+        width: 740px;
+    }
+
+    .toptext {
+        padding-left: 0;
+    }
+
+    .toptext:first-letter {
+        margin-left: 20px;
+    }
+
+    .break {
+        width: 700px;
+    }
+
+    #textform,
+    #messagebox {
+        width: 700px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        width: 545px;
+        margin: 0px 30px;
+    }
+
+    section {
+    width: 500px;
+    margin: 30px 30px;
+    }
+
+    .toptext {
+        padding-left: 0;
+    }
+
+    .break {
+        width: 500px;
+    }
+
+    .toptext:first-letter {
+        margin-left: 0px;
+    }
+
+    #textform,
+    #messagebox {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    section,
+    .break,
+    #aboutimg,
+    nav {
+        width: 400px;
+    }
+
+    header {
+        height: 140px;
+    }
+
+    #aboutimg {    
+        padding-bottom: 20px;   
+    }
+
+    .intro {
+        padding: 0px;
+    }
+
+    h1,
+    nav {
+        width: 100%;
+        margin: 0;
+    }
+
+    h1 {
+        float: none;
+    }
+
+    .click {
+        font-size: 16px;
+        float: right;
+    }
+
+    #menu {
+        width: 375px;
+    }
+
+    .tagbreak {
+        margin: 18px 8px 8px;
+    }
+
+    .toptext:first-letter {
+        margin-left: 0px;
+    }
+
+    #textform,
+    #messagebox {
+        width: 400px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
