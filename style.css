@@ -216,7 +216,7 @@ label {
 }
 
 #textform {
-    width: 940px;
+    width: 920px;
     margin-top: 10px;
     height: 20px;
     margin-bottom: 10px;
@@ -225,7 +225,7 @@ label {
 
 #messagebox {
 	height: 200px;
-	width: 940px;
+	width: 920px;
     margin-top: 10px;
     resize: vertical;
 }
@@ -307,7 +307,7 @@ footer {
 /*contact.html*/
     #textform,
     #messagebox {
-        width: 700px;
+        width: 500px;
     }
 }
 
@@ -331,7 +331,9 @@ footer {
 
 @media screen and (max-width: 640px) {
     section,
-    nav {
+    nav,
+    #textform,
+    #messagebox {
         width: 300px;
     }
 
@@ -369,11 +371,6 @@ footer {
 
     .tagbreak {
         margin: 18px 8px 8px;
-    }
-
-    #textform,
-    #messagebox {
-        width: 400px;
     }
 }
 
