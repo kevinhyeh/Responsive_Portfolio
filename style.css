@@ -72,6 +72,9 @@ h1 {
     color: #ffffff;
     font-size: 35px;
     padding-top: 20px;
+    animation-name: navigation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite; 
 }
 
 header {
@@ -255,6 +258,19 @@ footer {
     padding-top: 30px;
 }
 
+@keyframes navigation {
+    0%  {background-color: #4aaaa5;}
+    10% {background-color: #990000;}
+    20% {background-color: #993300;}
+    30% {background-color: #cc9900;}
+    40% {background-color: #006600;}
+    50% {background-color: #336666;}
+    60% {background-color: #0033ff;}
+    70% {background-color: #000099;}
+    80% {background-color: #660099;}
+    90% {background-color: #990066;}
+    100%{background-color: #ddd;}
+}
 /*media queuery */
 @media screen and (max-width: 980px) {
     section {
