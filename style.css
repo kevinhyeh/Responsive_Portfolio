@@ -315,9 +315,8 @@ footer {
 
 @media screen and (max-width: 640px) {
     section,
-    #aboutimg,
     nav {
-        width: 350px;
+        width: 300px;
     }
 
     header {
@@ -325,6 +324,7 @@ footer {
     }
 
     #aboutimg {    
+        width: 300px;
         padding-bottom: 20px;   
     }
 
@@ -348,7 +348,7 @@ footer {
     }
 
     #menu {
-        width: 375px;
+        width: 340px;
     }
 
     .tagbreak {
